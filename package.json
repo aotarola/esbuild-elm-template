@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "postinstall": "elm-tooling install",
+   "start": "elm-watch hot"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aotarola/elm-watch-template.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andres Otarola",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aotarola/elm-watch-template/issues"
   },
   "homepage": "https://github.com/aotarola/elm-watch-template#readme",
   "devDependencies": {
-    "elm-tooling": "^1.12.0",
     "elm-watch": "^1.1.2"
   }
 }
