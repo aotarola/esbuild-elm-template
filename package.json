@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "postinstall": "elm-tooling install",
-   "start": "elm-watch hot"
+    "postinstall": "elm-tooling install",
+    "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
+    "build": "elm-watch make --optimize && npm run esbuild -- --minify",
+    "esbuild": "esbuild app.ts --bundle --outdir=public/build --public-path=/build/"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/aotarola/elm-watch-template#readme",
   "devDependencies": {
-    "elm-watch": "^1.1.2"
+    "elm-watch": "^1.1.2",
+    "esbuild": "^0.17.2",
+    "run-pty": "^4.0.3"
   }
 }

@@ -1,10 +1,10 @@
 {
     "targets": {
-        "My target name": {
+        "App": {
             "inputs": [
                 "src/Main.elm"
             ],
-            "output": "build/main.js"
+            "output": "public/build/main.js"
         }
     }
 }
