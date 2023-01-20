@@ -1,8 +1,7 @@
 {
-  "name": "elm-watch-template",
+  "name": "elm-esbuild-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "postinstall": "elm-tooling install",
     "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
@@ -11,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aotarola/elm-watch-template.git"
+    "url": "git+https://github.com/aotarola/elm-esbuild-template.git"
   },
   "author": "Andres Otarola",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aotarola/elm-watch-template/issues"
+    "url": "https://github.com/aotarola/elm-esbuild-template/issues"
   },
-  "homepage": "https://github.com/aotarola/elm-watch-template#readme",
+  "homepage": "https://github.com/aotarola/elm-esbuild-template#readme",
   "devDependencies": {
     "elm-watch": "^1.1.2",
     "esbuild": "^0.17.2",
