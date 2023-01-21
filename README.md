@@ -28,7 +28,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
 <h3 align="center">Elm esbuild template</h3>
