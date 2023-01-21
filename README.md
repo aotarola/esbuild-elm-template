@@ -29,19 +29,19 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-<h3 align="center">Elm esbuild template</h3>
+<h3 align="center">esbuild Elm template</h3>
 
   <p align="center">
-    Default Elm template using esbuild and elm-watch
+    A default template for building Elm applications using esbuild and elm-watch
     <br />
-    <a href="https://github.com/aotarola/elm-esbuild-template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/aotarola/esbuild-elm-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/aotarola/elm-esbuild-template">View Demo</a>
+    <a href="https://github.com/aotarola/esbuild-elm-template">View Demo</a>
     ·
-    <a href="https://github.com/aotarola/elm-esbuild-template/issues">Report Bug</a>
+    <a href="https://github.com/aotarola/esbuild-elm-template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/aotarola/elm-esbuild-template/issues">Request Feature</a>
+    <a href="https://github.com/aotarola/esbuild-elm-template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -52,7 +52,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Elm esbuild template</a>
+      <a href="#esbuild-elm-template">esbuild Elm template</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -76,7 +76,7 @@
 <!-- ABOUT THE PROJECT -->
 
 
-## Elm esbuild template
+## esbuild Elm template
 
 A small default template for building Elm applications using esbuild + elm-watch.
 It includes the following features:
@@ -110,7 +110,7 @@ unwanted bloat.
 1. Click on the github template button of this repo and clone it, or use `tiged`:
 
    ```sh
-   $ npx tiged aotarola/elm-esbuild-template my-elm-app
+   $ npx tiged aotarola/esbuild-elm-template my-elm-app
   
    ```
 3. Install NPM packages
@@ -173,7 +173,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Andres Otarola - [@_aotarola_](https://twitter.com/_aotarola_) - andres@otarola.me
 
-Project Link: [https://github.com/aotarola/elm-esbuild-template](https://github.com/aotarola/elm-esbuild-template)
+Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.com/aotarola/esbuild-elm-template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,8 +183,8 @@ Project Link: [https://github.com/aotarola/elm-esbuild-template](https://github.
 ## Acknowledgments
 
 * [Got the inspiration from the fabulous vite-elm-template](https://github.com/lindsaykwardell/vite-elm-template)
-* [I'm in love with elm-watch][elm-watch-url]
-* [My mind got blown by esbuild][esbuild-url]
+* [Coz elm-watch rocks!][elm-watch-url]
+* [My mind got blown by esbuild's speed][esbuild-url]
 * [And the award for best README goes to Best README](https://github.com/othneildrew/Best-README-Template#readme-top)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -197,16 +197,16 @@ Project Link: [https://github.com/aotarola/elm-esbuild-template](https://github.
 [Elm-shield]: https://img.shields.io/badge/Elm-60B5CC?style=for-the-badge&logo=elm&logoColor=white
 [esbuild-shield]: https://img.shields.io/badge/esbuild-FFCF00?style=for-the-badge&logo=esbuild&logoColor=black
 [elm-watch-shield]: https://img.shields.io/badge/elm-watch-purple?style=for-the-badge&logo=elm-watch
-[contributors-shield]: https://img.shields.io/github/contributors/aotarola/elm-esbuild-template.svg?style=for-the-badge
-[contributors-url]: https://github.com/aotarola/elm-esbuild-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aotarola/elm-esbuild-template.svg?style=for-the-badge
-[forks-url]: https://github.com/aotarola/elm-esbuild-template/network/members
+[contributors-shield]: https://img.shields.io/github/contributors/aotarola/esbuild-elm-template.svg?style=for-the-badge
+[contributors-url]: https://github.com/aotarola/esbuild-elm-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aotarola/esbuild-elm-template.svg?style=for-the-badge
+[forks-url]: https://github.com/aotarola/esbuild-elm-template/network/members
 [stars-shield]: https://img.shields.io/github/stars/aotarola/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/aotarola/elm-esbuild-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aotarola/elm-esbuild-template.svg?style=for-the-badge
-[issues-url]: https://github.com/aotarola/elm-esbuild-template/issues
-[license-shield]: https://img.shields.io/github/license/aotarola/elm-esbuild-template.svg?style=for-the-badge
-[license-url]: https://github.com/aotarola/elm-esbuild-tempalte/blob/master/LICENSE.txt
+[stars-url]: https://github.com/aotarola/esbuild-elm-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aotarola/esbuild-elm-template.svg?style=for-the-badge
+[issues-url]: https://github.com/aotarola/esbuild-elm-template/issues
+[license-shield]: https://img.shields.io/github/license/aotarola/esbuild-elm-template.svg?style=for-the-badge
+[license-url]: https://github.com/aotarola/esbuild-elm-tempalte/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aotarolaalvarado
 
