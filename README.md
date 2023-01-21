@@ -108,11 +108,13 @@ unwanted bloat.
 ### Installation
 
 1. Click on the github template button of this repo and clone it, or use `tiged`:
+
    ```sh
    $ npx tiged aotarola/elm-esbuild-template my-elm-app
   
    ```
 3. Install NPM packages
+
    ```sh
    npm ci
    ```
