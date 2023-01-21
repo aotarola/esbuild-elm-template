@@ -181,7 +181,7 @@ Project Link: [https://github.com/aotarola/elm-esbuild-template](https://github.
 ## Acknowledgments
 
 * [Got the inspiration from the fabulous vite-elm-template](https://github.com/lindsaykwardell/vite-elm-template)
-* [I'm in love with elm-watch](elm-watch-url)
+* [I'm in love with elm-watch][elm-watch-url]
 * [My mind got blown by esbuild][esbuild-url]
 * [And the award for best README goes to Best README](https://github.com/othneildrew/Best-README-Template#readme-top)
 
