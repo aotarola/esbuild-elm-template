@@ -37,7 +37,7 @@
     <a href="https://github.com/aotarola/esbuild-elm-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/aotarola/esbuild-elm-template">View Demo</a>
+    <a href="https://esbuild-elm-template.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/aotarola/esbuild-elm-template/issues">Report Bug</a>
     ·
