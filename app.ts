@@ -1,7 +1,8 @@
 function run(): void {
-  window.Elm?.Main?.init({ node: window.document.body });
+  const root = document.getElementById("root");
+  window.Elm?.Main?.init({ node: root });
 }
 
-window.addEventListener("load", run);
+run();
 
 export {};
