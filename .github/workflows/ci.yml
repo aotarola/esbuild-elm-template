@@ -25,21 +25,13 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-  deploy:
-    name: 'Deploy to Netlify'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+          npm t
+
+      - name: Deploy production to Netlify
+        uses: jsmrcaga/action-netlify-deploy@v1.1.0
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies
-        run: |
-          npm ci
-          npm run build
-      - uses: jsmrcaga/action-netlify-deploy@v1.1.0
-        with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.MY_TOKEN_SECRET }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.ESBUILD_ELM_TEMPLATE_SITE_ID }}
+          build_directory: public
+          install_command: npm run build
           NETLIFY_DEPLOY_TO_PROD: true
