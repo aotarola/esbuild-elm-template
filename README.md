@@ -201,7 +201,7 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [contributors-url]: https://github.com/aotarola/esbuild-elm-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/aotarola/esbuild-elm-template.svg?style=for-the-badge
 [forks-url]: https://github.com/aotarola/esbuild-elm-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/aotarola/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/aotarola/esbuild-elm-template.svg?style=for-the-badge
 [stars-url]: https://github.com/aotarola/esbuild-elm-template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/aotarola/esbuild-elm-template.svg?style=for-the-badge
 [issues-url]: https://github.com/aotarola/esbuild-elm-template/issues
