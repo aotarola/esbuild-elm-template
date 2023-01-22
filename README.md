@@ -78,7 +78,8 @@
 
 ## Esbuild Elm Template
 
-A small default template for building Elm applications using esbuild + elm-watch.
+A small default template for building Elm applications using esbuild + elm-watch,
+it is heavily based on [elm-watch example][elm-watch-example-url].
 It includes the following features:
 
 * :white_check_mark: Absolute minimalist
@@ -214,3 +215,4 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [Elm-url]: https://elm-lang.org/
 [esbuild-url]: https://esbuild.github.io/
 [elm-watch-url]: https://lydell.github.io/elm-watch/
+[elm-watch-example-url]: https://github.com/lydell/elm-watch/tree/05a147a2d85aa396e4646278b57c99df391edbf2/example#readme
