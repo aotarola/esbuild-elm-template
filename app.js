@@ -5,4 +5,9 @@ function run() {
 
 run();
 
-export {};
+if (!window.PRODUCTION) {
+  new EventSource("/esbuild").addEventListener(
+    "change",
+    () => location.reload(),
+  );
+}

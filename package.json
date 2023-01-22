@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "postinstall": "elm-tooling install",
-    "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
-    "build": "elm-watch make --optimize && npm run esbuild -- --minify",
+    "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public --watch",
+    "build": "elm-watch make --optimize && npm run esbuild -- --minify --define:window.PRODUCTION=true",
     "esbuild": "esbuild app.js --bundle --outdir=public/build --public-path=/build/",
     "test": "elm-test-rs"
   },
