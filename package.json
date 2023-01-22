@@ -2,7 +2,6 @@
   "name": "elm-esbuild-template",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
   "scripts": {
     "postinstall": "elm-tooling install",
     "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
@@ -11,16 +10,6 @@
     "test": "npm-run-all test:*",
     "test:elm": "elm-test-rs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aotarola/elm-esbuild-template.git"
-  },
-  "author": "Andres Otarola",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aotarola/elm-esbuild-template/issues"
-  },
-  "homepage": "https://github.com/aotarola/elm-esbuild-template#readme",
   "devDependencies": {
     "elm-tooling": "^1.12.0",
     "elm-watch": "^1.1.2",
