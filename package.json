@@ -7,7 +7,7 @@
     "postinstall": "elm-tooling install",
     "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
     "build": "elm-watch make --optimize && npm run esbuild -- --minify",
-    "esbuild": "esbuild app.ts --bundle --outdir=public/build --public-path=/build/",
+    "esbuild": "esbuild app.js --bundle --outdir=public/build --public-path=/build/",
     "test": "npm-run-all test:*",
     "test:elm": "elm-test-rs"
   },
