@@ -86,6 +86,7 @@ It includes the following features:
 * :white_check_mark: Hot reloading on dev mode
 * :white_check_mark: Production Build (minification using UglyJS)
 * :white_check_mark: Tooling installation via elm-tooling
+* :white_check_mark: Tests are run via [`elm-test-rs`][elm-test-rs-url]
 
 The aim of this template is to keep things as simple as possible, so it avoids
 unwanted bloat.
@@ -219,3 +220,4 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [esbuild-url]: https://esbuild.github.io/
 [elm-watch-url]: https://lydell.github.io/elm-watch/
 [elm-watch-example-url]: https://github.com/lydell/elm-watch/tree/05a147a2d85aa396e4646278b57c99df391edbf2/example#readme
+[elm-test-rs-url]: https://github.com/mpizenberg/elm-test-rs
