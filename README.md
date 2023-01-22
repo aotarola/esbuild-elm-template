@@ -111,7 +111,8 @@ unwanted bloat.
 1. Click on the github template button of this repo and clone it, or use `tiged`:
 
    ```sh
-   $ npx tiged aotarola/esbuild-elm-template my-elm-app
+   npx tiged aotarola/esbuild-elm-template my-elm-app
+   cd my-elm-app
   
    ```
 3. Install NPM packages
@@ -130,13 +131,15 @@ unwanted bloat.
 ### Run the application in developer mode
 
 ```sh
-$ npm start
+npm start
 ```
+
+Check it out in http://localhost:9000
 
 ### Build for production
 
 ```
-$ npm run build
+npm run build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
