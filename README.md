@@ -52,7 +52,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#esbuild-elm-template">esbuild Elm template</a>
+      <a href="#esbuild-elm-template">Esbuild Elm Template</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -76,7 +76,7 @@
 <!-- ABOUT THE PROJECT -->
 
 
-## esbuild Elm template
+## Esbuild Elm Template
 
 A small default template for building Elm applications using esbuild + elm-watch.
 It includes the following features:
