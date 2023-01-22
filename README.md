@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-<h3 align="center">esbuild Elm template</h3>
+<h3 align="center">Esbuild Elm Template</h3>
 
   <p align="center">
     A default template for building Elm applications using esbuild and elm-watch
