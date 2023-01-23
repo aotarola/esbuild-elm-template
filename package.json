@@ -2,30 +2,18 @@
   "name": "elm-esbuild-template",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "private": true,
   "scripts": {
     "postinstall": "elm-tooling install",
-    "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public",
-    "build": "elm-watch make --optimize && npm run esbuild -- --minify",
-    "esbuild": "esbuild app.ts --bundle --outdir=public/build --public-path=/build/",
-    "test": "npm-run-all test:*",
-    "test:elm": "elm-test-rs"
+    "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public --watch",
+    "build": "elm-watch make --optimize && npm run esbuild -- --minify --define:window.PRODUCTION=true",
+    "esbuild": "esbuild app.js --bundle --outdir=public/build --public-path=/build/",
+    "test": "elm-test-rs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aotarola/elm-esbuild-template.git"
-  },
-  "author": "Andres Otarola",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aotarola/elm-esbuild-template/issues"
-  },
-  "homepage": "https://github.com/aotarola/elm-esbuild-template#readme",
   "devDependencies": {
     "elm-tooling": "^1.12.0",
     "elm-watch": "^1.1.2",
     "esbuild": "^0.17.2",
-    "npm-run-all": "^4.1.5",
     "run-pty": "^4.0.3",
     "uglify-js": "^3.17.4"
   }

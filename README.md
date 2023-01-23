@@ -78,13 +78,15 @@
 
 ## Esbuild Elm Template
 
-A small default template for building Elm applications using esbuild + elm-watch.
+A small default template for building Elm applications using esbuild + elm-watch,
+it is heavily based on [elm-watch example][elm-watch-example-url].
 It includes the following features:
 
 * :white_check_mark: Absolute minimalist
 * :white_check_mark: Hot reloading on dev mode
 * :white_check_mark: Production Build (minification using UglyJS)
 * :white_check_mark: Tooling installation via elm-tooling
+* :white_check_mark: Tests are run via [`elm-test-rs`][elm-test-rs-url]
 
 The aim of this template is to keep things as simple as possible, so it avoids
 unwanted bloat.
@@ -110,7 +112,8 @@ unwanted bloat.
 1. Click on the github template button of this repo and clone it, or use `tiged`:
 
    ```sh
-   $ npx tiged aotarola/esbuild-elm-template my-elm-app
+   npx tiged aotarola/esbuild-elm-template my-elm-app
+   cd my-elm-app
   
    ```
 3. Install NPM packages
@@ -129,13 +132,15 @@ unwanted bloat.
 ### Run the application in developer mode
 
 ```sh
-$ npm start
+npm start
 ```
+
+Check it out in http://localhost:9000
 
 ### Build for production
 
 ```
-$ npm run build
+npm run build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -214,3 +219,5 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [Elm-url]: https://elm-lang.org/
 [esbuild-url]: https://esbuild.github.io/
 [elm-watch-url]: https://lydell.github.io/elm-watch/
+[elm-watch-example-url]: https://github.com/lydell/elm-watch/tree/05a147a2d85aa396e4646278b57c99df391edbf2/example#readme
+[elm-test-rs-url]: https://github.com/mpizenberg/elm-test-rs

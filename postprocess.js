@@ -9,10 +9,10 @@ export default async function postprocess(
     case "debug":
       return code;
     case "optimize":
-      return minify(code, {
-        minimal: !["Html", "Sandbox", "Element", "Document", "Worker"].includes(
-          targetName,
-        ),
+      return await minify(code, {
+        // `minimal: true` runs both UglifyJS and esbuild, which results in smaller output but is slow.
+        // `minimal: false` runs only esbuild, which is super fast but results in slightly larger output.
+        minimal: true,
       });
   }
 }
@@ -36,6 +36,7 @@ const pureFuncs = [
   "A9",
 ];
 
+// Source: https://discourse.elm-lang.org/t/what-i-ve-learned-about-minifying-elm-code/7632
 function minify(code, { minimal }) {
   return minimal ? runUglifyJSAndEsbuild(code) : runEsbuild(code);
 }
