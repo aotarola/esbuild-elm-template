@@ -8,9 +8,11 @@
     "start": "run-pty % elm-watch hot % npm run esbuild -- --serve=9000 --servedir=public --watch",
     "build": "elm-watch make --optimize && npm run esbuild -- --minify --define:window.PRODUCTION=true",
     "esbuild": "esbuild app.js --bundle --outdir=public/build --public-path=/build/",
+    "lint": "elm-review",
     "test": "elm-test-rs"
   },
   "devDependencies": {
+    "elm-review": "^2.9.1",
     "elm-tooling": "^1.12.0",
     "elm-watch": "^1.1.2",
     "esbuild": "^0.17.2",
