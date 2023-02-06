@@ -84,7 +84,7 @@ It includes the following features:
 
 * :zap: Absolute minimalist
 * :fire: Hot reloading on dev mode
-* :hammer_and_wrench: Tooling installation via elm-tooling
+* :hammer_and_wrench: Tooling installation via [`elm-tooling`][elm-tooling-url]
 * :nail_care: Elm code linted by [`elm-review`][elm-review-url] (with reasonable defaults)
 * :test_tube: Tests are run via [`elm-test-rs`][elm-test-rs-url]
 * :rocket: Production Build (minification using [`UglifyJS`][uglifyjs-url])
@@ -224,3 +224,4 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [elm-test-rs-url]: https://github.com/mpizenberg/elm-test-rs
 [elm-review-url]: https://package.elm-lang.org/packages/jfmengels/elm-review/latest/
 [uglifyjs-url]: https://lisperator.net/uglifyjs/
+[elm-tooling-url]: https://elm-tooling.github.io/elm-tooling-cli/
