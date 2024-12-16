@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,13 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <div align="center">
@@ -44,8 +43,6 @@
     <a href="https://github.com/aotarola/esbuild-elm-template/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -71,10 +68,7 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-
 
 ## Esbuild Elm Template
 
@@ -82,31 +76,29 @@ A small default template for building Elm applications using esbuild + elm-watch
 it is heavily based on [elm-watch example][elm-watch-example-url].
 It includes the following features:
 
-* :zap: Absolute minimalist
-* :fire: Hot reloading on dev mode
-* :hammer_and_wrench: Tooling installation via [`elm-tooling`][elm-tooling-url]
-* :nail_care: Elm code linted by [`elm-review`][elm-review-url] (with reasonable defaults)
-* :test_tube: Tests are run via [`elm-test-rs`][elm-test-rs-url]
-* :rocket: Production Build (minification using [`UglifyJS`][uglifyjs-url])
+- :zap: Absolute minimalist
+- :fire: Hot reloading on dev mode
+- :hammer_and_wrench: Tooling installation via [`elm-tooling`][elm-tooling-url]
+- :nail_care: Elm code linted by [`elm-review`][elm-review-url] (with reasonable defaults)
+- :test_tube: Tests are run via [`elm-test-rs`][elm-test-rs-url]
+- :rocket: Production Build (minification using [`UglifyJS`][uglifyjs-url])
 
 The aim of this template is to keep things as simple as possible, so it avoids
 unwanted bloat.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ### Built With
 
-* [![Elm][Elm-shield]][Elm-url]
-* [![esbuild][esbuild-shield]][esbuild-url]
-* [![elm-watch][elm-watch-shield]][elm-watch-url]
+- [![Elm][Elm-shield]][Elm-url]
+- [![esbuild][esbuild-shield]][esbuild-url]
+- [![elm-watch][elm-watch-shield]][elm-watch-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
-## Getting Started
 
+## Getting Started
 
 ### Installation
 
@@ -115,25 +107,25 @@ unwanted bloat.
    ```sh
    npx tiged aotarola/esbuild-elm-template my-elm-app
    cd my-elm-app
-  
+
    ```
-3. Install NPM packages
+
+2. Install NPM packages
 
    ```sh
-   npm ci
+   pnpm install
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 ### Run the application in developer mode
 
 ```sh
-npm start
+pnpm start
 ```
 
 Check it out in http://localhost:9000
@@ -141,13 +133,13 @@ Check it out in http://localhost:9000
 ### Build for production
 
 ```
-npm run build
+pnpm build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -163,18 +155,16 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Andres Otarola - [@_aotarola_](https://twitter.com/_aotarola_) - andres@otarola.me
@@ -183,19 +173,16 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Got the inspiration from the fabulous vite-elm-template](https://github.com/lindsaykwardell/vite-elm-template)
-* [Coz elm-watch rocks!][elm-watch-url]
-* [My mind got blown by esbuild's speed][esbuild-url]
-* [And the award for best README goes to Best README](https://github.com/othneildrew/Best-README-Template#readme-top)
+- [Got the inspiration from the fabulous vite-elm-template](https://github.com/lindsaykwardell/vite-elm-template)
+- [Coz elm-watch rocks!][elm-watch-url]
+- [My mind got blown by esbuild's speed][esbuild-url]
+- [And the award for best README goes to Best README](https://github.com/othneildrew/Best-README-Template#readme-top)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -215,8 +202,6 @@ Project Link: [https://github.com/aotarola/esbuild-elm-template](https://github.
 [license-url]: https://github.com/aotarola/esbuild-elm-tempalte/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aotarolaalvarado
-
-
 [Elm-url]: https://elm-lang.org/
 [esbuild-url]: https://esbuild.github.io/
 [elm-watch-url]: https://lydell.github.io/elm-watch/
